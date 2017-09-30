@@ -38,6 +38,7 @@ int singleNumber(const vector<int> &A) {
     return answer;
 }
 
+# O(n) time, O(1) memory
 # Explanation: keep track of a running sum of the bit-wise XORs of the elements in the array. This will identify the 
 # one unique number inside. In other words, for any integer A, A^A will always be 0, because each bit place will of the
 # result will be 0. Only one element in the array will not have its bit places cancelled, and that is the unique one.
