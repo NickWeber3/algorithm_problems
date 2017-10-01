@@ -1,5 +1,6 @@
 # Nick Weber - Bubble Sort
 # Sorts an array/vector using an elementary bubble sort
+# O(nlog(n)) time, O(1) memory
 
 #include <iostream>
 #include <vector>
