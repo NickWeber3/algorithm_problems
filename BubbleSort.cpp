@@ -7,6 +7,7 @@
 #       - Adaptive version (below, see bool 'swapped') 
 #         may finish quickly if almost sorted
 
+
 #include <iostream>
 #include <vector>
 
