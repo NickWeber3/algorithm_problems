@@ -1,4 +1,3 @@
-
 # Nick Weber - Quick Sort
 
 # QUICK SORT
