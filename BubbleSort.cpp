@@ -1,7 +1,7 @@
 # Nick Weber - Bubble Sort
 
 # BUBBLE SORT
-# O(nlog(n)) time, O(1) memory
+# O(n^2) time, O(1) memory
 # Advantages:
 #       - Simple to implement, understand
 #       - Adaptive version (below, see bool 'swapped') 
