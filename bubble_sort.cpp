@@ -1,6 +1,11 @@
 # Nick Weber - Bubble Sort
-# Sorts an array/vector using an elementary bubble sort
+
+# BUBBLE SORT
 # O(nlog(n)) time, O(1) memory
+# Advantages:
+#       - Simple to implement, understand
+#       - Adaptive version (below, see bool 'swapped') 
+#         may finish quickly if almost sorted
 
 #include <iostream>
 #include <vector>
