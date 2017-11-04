@@ -44,7 +44,7 @@
  * };
  */
 
-ListNode* Solution::detectCycle(ListNode* A) {
+ListNode* detectCycle(ListNode* A) {
     ListNode *skip_one = A, *skip_two = A;
     bool isCycle = false;
     while (skip_one and skip_two and skip_two->next) {
