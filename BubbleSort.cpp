@@ -1,12 +1,13 @@
-# Nick Weber - Bubble Sort
+/*
+Nick Weber - Bubble Sort
 
-# BUBBLE SORT
-# O(n^2) time, O(1) memory
-# Advantages:
-#       - Simple to implement, understand
-#       - Adaptive version (below, see bool 'swapped') 
-#         may finish quickly if almost sorted
-
+BUBBLE SORT
+O(n^2) time, O(1) memory
+Advantages:
+       - Simple to implement, understand
+       - Adaptive version (below, see bool 'swapped') 
+         may finish quickly if almost sorted
+*/
 
 #include <iostream>
 #include <vector>
