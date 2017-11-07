@@ -1,42 +1,43 @@
-# Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
-# Example: 
-#          Input:            ______
-#                           |     |
-#                           \/    |
-#                 1 -> 2 -> 3 -> 4
-#                                       Return the node corresponding to node 3. 
+// Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
+// Example: 
+//          Input:            ______
+//                           |     |
+//                           \/    |
+//                 1 -> 2 -> 3 -> 4
+//                                      Return the node corresponding to node 3. 
+/*
 
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          V
-# Solution:
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          V
+*/
 
 /*
- * Definition for singly-linked list in C++:
+ * Basic definition for singly-linked list in C++:
  * struct ListNode {
  *     int val;
  *     ListNode *next;
