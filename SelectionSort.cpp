@@ -1,11 +1,12 @@
-# Nick Weber - Selection Sort
+/*
+Nick Weber - Selection Sort
 
-# SELECTION SORT
-# O(n^2) time, O(1) memory
-# Advantages:
-#       - Minimal copying of items
-#       - In practice, hard to beat for small arrays
-
+SELECTION SORT
+O(n^2) time, O(1) memory
+Advantages:
+    - Minimal copying of items
+    - In practice, hard to beat for small arrays
+*/
 
 #include <iostream>
 #include <vector>
