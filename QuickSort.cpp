@@ -1,16 +1,18 @@
-# Nick Weber - Quick Sort
+/*
+Nick Weber - Quick Sort
 
-# QUICK SORT
-# Explanation: Divide-and-conquer recursive sort. 
-#              Base case: arrays of length 0 and 1 are trivially sorted. 
-#              Inductive step:    - Guess an element to partition array
-#                                 - Form array of [LHS]element[RHS] (divide)
-#                                 - Recursively sort [LHS] and [RHS] (conquer)
-#
-# Analysis:    O(nlog(n)) best/average-case time, O(n) worst-case time, O(1) memory   
-#              Efficiency based on selection of pivot, ideally it is one that partitions equally
-#              Although O(1) overhead memory, O(log(n)) stack frames
-               
+QUICK SORT
+Explanation: • Divide-and-conquer recursive sort. 
+             • Base case: arrays of length 0 and 1 are trivially sorted. 
+             • Inductive step:  
+                     - Guess an element to partition array
+                     - Form array of [LHS]element[RHS] (divide)
+                     - Recursively sort [LHS] and [RHS] (conquer)
+
+Analysis:    • O(nlog(n)) best/average-case time, O(n) worst-case time, O(1) memory   
+             • Efficiency based on selection of pivot, ideally it is one that partitions equally
+             • Although O(1) overhead memory, O(log(n)) stack frames
+*/               
 
 
 #include <iostream>
