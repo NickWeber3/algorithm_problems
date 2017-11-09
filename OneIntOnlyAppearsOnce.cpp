@@ -1,34 +1,34 @@
-# Given an array of integers, every element appears twice except for one. Find that single one.
-# Example:    Input: [1 2 2 3 1] -----> Output: 3
+// Given an array of integers, every element appears twice except for one. Find that single one.
+// Example:    Input: [1 2 2 3 1] -----> Output: 3
 
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          V
-# Solution:
+/*                                        |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          V
+*/
 
 int singleNumber(const vector<int> &A) {
     int answer = 0;
