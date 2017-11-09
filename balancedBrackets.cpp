@@ -1,37 +1,37 @@
-# Make sure that the parentheses, braces,and brackets of a string are balanced
-# Example:
-#          "{ [ ] ( ) }" should return true
-#          "{ [ ( ] ) }" should return false
-#          "{ [ }"       should return false
-#
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          |
-#                                          V
-# Solution:
+// Make sure that the parentheses, braces,and brackets of a string are balanced
+// Example:
+//          "{ [ ] ( ) }" should return true
+//          "{ [ ( ] ) }" should return false
+//          "{ [ }"       should return false
+
+/*                                        |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          |
+                                          V
+*/
 
 bool bracketValidator(string &s) {
     
