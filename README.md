@@ -1,5 +1,5 @@
-Data structure directories still incorporate algorithmic thinking, and I attempted to implement them with the best time complexities I could.
+Any problem where a data structure is initially given (e.g. merge two arrays, rotate a linked list, etc.) has been put in that particular data structure's directory.
 
-Any problem that isn't easily or clearly solved by a particular data structure is in the "Algorithm and Complexity" directory.
+All other problems, including those with data structures that YOU should come up with, are in the "Algorithm and Complexity" directory.
 
 Keep the grind alive.
