@@ -6,7 +6,7 @@
 // Approach 1: Have one pointer iterate list until the end, keeping track of length.
 //  		   Then have another pointer start at the beginning of the list, and 
 //  		   iterate length-k times to get to kth to last node.
-//		       O(n) time, O(1) space
+//		   O(n) time, O(1) space
 
 Node* kthToLast(Node *head, int k) {
 	Node* runner = head;
