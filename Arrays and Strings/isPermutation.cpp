@@ -26,6 +26,8 @@
 ***/
 
 
+// I used an unordered map, but a pre-sized vector would work too, maybe even better.
+// You would just need to know the size of the character set
 bool isPermutation(string &a, string &b) {
     // cannot be permutation if not the same size
     if (a.length() != b.length()) {
