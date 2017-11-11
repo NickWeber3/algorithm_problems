@@ -6,7 +6,7 @@
 // Approach 1: Have one pointer iterate list until the end, keeping track of length.
 //  		   Then have another pointer start at the beginning of the list, and 
 //  		   iterate length-k times to get to kth to last node.
-//			   O(n) time, O(1) space
+//		       O(n) time, O(1) space
 
 Node* kthToLast(Node *head, int k) {
 	Node* runner = head;
@@ -30,8 +30,8 @@ Node* kthToLast(Node *head, int k) {
 
 
 // Approach 2: Create two runner nodes, maintain a k-length "stick" between the two.
-//  		   When front runner reaches end of list, return back runner. 
-//			   O(n) time, O(1) memory
+//  	       When front runner reaches end of list, return back runner. 
+// 	       O(n) time, O(1) memory
 
 Node* kthToLast(Node *head, int k) {
 	Node* frontRunner = head, backRunner = head;
@@ -51,8 +51,8 @@ Node* kthToLast(Node *head, int k) {
 
 
 // Approach 3: Recursively get to end of list. When coming back up the stack from, keep
-//   		   returning length-kth node.
-//			   O(n) time, O(n) stack frame memory
+//   	       returning length-kth node.
+//	       O(n) time, O(n) stack frame memory
 
 Node* kthToLast(Node *head, int k, int &i) {     // <--- notice pass by reference i!
 	if (!head) {return head;}
@@ -68,6 +68,3 @@ Node* kthToLast(Node *head, int k, int &i) {     // <--- notice pass by referenc
 	}
 	return newHead;
 }
-
-
-
